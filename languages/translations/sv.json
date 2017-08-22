@@ -67,10 +67,10 @@
                 "default": "Du är framme vid din {nth} destination, skarpt till höger"
             },
             "slight right": {
-                "default": "Du är framme vid din {nth} destination, lätt till höger"
+                "default": "Du är framme vid din {nth} destination, till höger"
             },
             "slight left": {
-                "default": "Du är framme vid din {nth} destination, lätt till vänster"
+                "default": "Du är framme vid din {nth} destination, till vänster"
             },
             "straight": {
                 "default": "Du är framme vid din {nth} destination, rakt fram"
@@ -165,24 +165,24 @@
                 "destination": "Körfältsbyte åt {modifier} mot {destination}"
             },
             "slight left": {
-                "default": "Körfältsbyte åt vänster",
-                "name": "Körfältsbyte åt vänster in på {way_name}",
-                "destination": "Körfältsbyte åt vänster mot {destination}"
+                "default": "Byt till vänstra körfältet",
+                "name": "Byt till vänstra körfältet in på {way_name}",
+                "destination": "Byt till vänstra körfältet mot {destination}"
             },
             "slight right": {
-                "default": "Körfältsbyte åt höger",
-                "name": "Körfältsbyte åt höger in på {way_name}",
-                "destination": "Körfältsbyte åt höger mot {destination}"
+                "default": "Byt till högra körfältet",
+                "name": "Byt till högra körfältet in på {way_name}",
+                "destination": "Byt till högra körfältet mot {destination}"
             },
             "sharp left": {
-                "default": "Körfältsbyte åt vänster",
-                "name": "Körfältsbyte åt vänster in på {way_name}",
-                "destination": "Körfältsbyte åt vänster mot {destination}"
+                "default": "Byt till vänstra körfältet",
+                "name": "Byt till vänstra körfältet in på {way_name}",
+                "destination": "Byt till vänstra körfältet mot {destination}"
             },
             "sharp right": {
-                "default": "Körfältsbyte åt höger",
-                "name": "Körfältsbyte åt höger in på {way_name}",
-                "destination": "Körfältsbyte åt höger mot {destination}"
+                "default": "Byt till högra körfältet",
+                "name": "Byt till högra körfältet in på {way_name}",
+                "destination": "Byt till högra körfältet mot {destination}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
@@ -195,6 +195,11 @@
                 "default": "Fortsätt {modifier}",
                 "name": "Fortsätt {modifier} på {way_name}",
                 "destination": "Fortsätt {modifier} mot {destination}"
+            },
+            "straight": {
+                "default": "Fortsätt rakt fram",
+                "name": "Fortsätt in på {way_name}",
+                "destination": "Fortsätt mot {destination}"
             },
             "sharp left": {
                 "default": "Gör en skarp vänstersväng",
@@ -236,108 +241,122 @@
         },
         "off ramp": {
             "default": {
-                "default": "Ta avfartrampen",
-                "name": "Ta avfartsrampen in på {way_name}",
-                "destination": "Ta avfartsrampen mot {destination}"
+                "default": "Ta avfarten",
+                "name": "Ta avfarten in på {way_name}",
+                "destination": "Ta avfarten mot {destination}",
+                "exit": "Ta {exit} avfarten",
+                "exit_destination": "Ta {exit} avfarten mot {destination}"
             },
             "left": {
-                "default": "Ta avfartsrampen till vänster",
-                "name": "Ta avfartsrampen till vänster in på {way_name}",
-                "destination": "Ta avfartsrampen till vänster mot {destination}"
+                "default": "Ta avfarten till vänster",
+                "name": "Ta avfarten till vänster in på {way_name}",
+                "destination": "Ta avfarten till vänster mot {destination}",
+                "exit": "Ta {exit} avfarten till vänster",
+                "exit_destination": "Ta {exit} avfarten till vänster mot {destination}"
             },
             "right": {
-                "default": "Ta avfartsrampen till höger",
-                "name": "Ta avfartsrampen till höger in på {way_name}",
-                "destination": "Ta avfartsrampen till höger mot {destination}"
+                "default": "Ta avfarten till höger",
+                "name": "Ta avfarten till höger in på {way_name}",
+                "destination": "Ta avfarten till höger mot {destination}",
+                "exit": "Ta {exit} avfarten till höger",
+                "exit_destination": "Ta {exit} avfarten till höger mot {destination}"
             },
             "sharp left": {
-                "default": "Ta avfartsrampen till vänster",
-                "name": "Ta avfartsrampen till vänster in på {way_name}",
-                "destination": "Ta avfartsrampen till vänster mot {destination}"
+                "default": "Ta avfarten till vänster",
+                "name": "Ta avfarten till vänster in på {way_name}",
+                "destination": "Ta avfarten till vänster mot {destination}",
+                "exit": "Ta {exit} avfarten till vänster",
+                "exit_destination": "Ta {exit} avfarten till vänster mot {destination}"
             },
             "sharp right": {
-                "default": "Ta avfartsrampen till höger",
-                "name": "Ta avfartsrampen till höger in på {way_name}",
-                "destination": "Ta avfartsrampen till höger mot {destination}"
+                "default": "Ta avfarten till höger",
+                "name": "Ta avfarten till höger in på {way_name}",
+                "destination": "Ta avfarten till höger mot {destination}",
+                "exit": "Ta {exit} avfarten till höger",
+                "exit_destination": "Ta {exit} avfarten till höger mot {destination}"
             },
             "slight left": {
-                "default": "Ta avfartsrampen till vänster",
-                "name": "Ta avfartsrampen till vänster in på {way_name}",
-                "destination": "Ta avfartsrampen till vänster mot {destination}"
+                "default": "Ta avfarten till vänster",
+                "name": "Ta avfarten till vänster in på {way_name}",
+                "destination": "Ta avfarten till vänster mot {destination}",
+                "exit": "Ta {exit} avfarten till vänster",
+                "exit_destination": "Ta {exit} avfarten till vänster mot {destination}"
             },
             "slight right": {
-                "default": "Ta avfartsrampen till höger",
-                "name": "Ta avfartsrampen till höger in på {way_name}",
-                "destination": "Ta avfartsrampen till höger mot {destination}"
+                "default": "Ta avfarten till höger",
+                "name": "Ta avfarten till höger in på {way_name}",
+                "destination": "Ta avfarten till höger mot {destination}",
+                "exit": "Ta {exit} avfarten till höger",
+                "exit_destination": "Ta {exit} avfarten till höger mot {destination}"
             }
         },
         "on ramp": {
             "default": {
-                "default": "Ta påfartsrampen",
-                "name": "Ta påfartsrampen in på {way_name}",
-                "destination": "Ta påfartsrampen mot {destination}"
+                "default": "Ta påfarten",
+                "name": "Ta påfarten in på {way_name}",
+                "destination": "Ta påfarten mot {destination}"
             },
             "left": {
-                "default": "Ta påfartsrampen till vänster",
-                "name": "Ta påfartsrampen till vänster in på {way_name}",
-                "destination": "Ta påfartsrampen till vänster mot {destination}"
+                "default": "Ta påfarten till vänster",
+                "name": "Ta påfarten till vänster in på {way_name}",
+                "destination": "Ta påfarten till vänster mot {destination}"
             },
             "right": {
-                "default": "Ta påfartsrampen till höger",
-                "name": "Ta påfartsrampen till höger in på {way_name}",
-                "destination": "Ta påfartsrampen till höger mot {destination}"
+                "default": "Ta påfarten till höger",
+                "name": "Ta påfarten till höger in på {way_name}",
+                "destination": "Ta påfarten till höger mot {destination}"
             },
             "sharp left": {
-                "default": "Ta påfartsrampen till vänster",
-                "name": "Ta påfartsrampen till vänster in på {way_name}",
-                "destination": "Ta påfartsrampen till vänster mot {destination}"
+                "default": "Ta påfarten till vänster",
+                "name": "Ta påfarten till vänster in på {way_name}",
+                "destination": "Ta påfarten till vänster mot {destination}"
             },
             "sharp right": {
-                "default": "Ta påfartsrampen till höger",
-                "name": "Ta påfartsrampen till höger in på {way_name}",
-                "destination": "Ta påfartsrampen till höger mot {destination}"
+                "default": "Ta påfarten till höger",
+                "name": "Ta påfarten till höger in på {way_name}",
+                "destination": "Ta påfarten till höger mot {destination}"
             },
             "slight left": {
-                "default": "Ta påfartsrampen till vänster",
-                "name": "Ta påfartsrampen till vänster in på {way_name}",
-                "destination": "Ta påfartsrampen till vänster mot {destination}"
+                "default": "Ta påfarten till vänster",
+                "name": "Ta påfarten till vänster in på {way_name}",
+                "destination": "Ta påfarten till vänster mot {destination}"
             },
             "slight right": {
-                "default": "Ta påfartsrampen till höger",
-                "name": "Ta påfartsrampen till höger in på {way_name}",
-                "destination": "Ta påfartsrampen till höger mot {destination}"
+                "default": "Ta påfarten till höger",
+                "name": "Ta påfarten till höger in på {way_name}",
+                "destination": "Ta påfarten till höger mot {destination}"
             }
         },
         "rotary": {
             "default": {
                 "default": {
                     "default": "Kör in i rondellen",
-                    "name": "Kör in i rondellen och ta av mot {way_name}",
+                    "name": "Kör in i rondellen och ta av in på {way_name}",
                     "destination": "Kör in i rondellen och ta av mot {destination}"
                 },
                 "name": {
                     "default": "Kör in i {rotary_name}",
-                    "name": "Kör in i {rotary_name} och ta av mot {way_name}",
+                    "name": "Kör in i {rotary_name} och ta av in på {way_name}",
                     "destination": "Kör in i {rotary_name} och ta av mot {destination}"
                 },
                 "exit": {
-                    "default": "Kör in i rondellen och ta avfart {exit_number}",
-                    "name": "Kör in i rondellen och ta avfart {exit_number} mot {way_name}",
-                    "destination": "Kör in i rondellen och ta avfart {exit_number} mot {destination}"
+                    "default": "Kör in i rondellen och ta {exit_number} avfarten",
+                    "name": "Kör in i rondellen och ta {exit_number} avfarten in på {way_name}",
+                    "destination": "Kör in i rondellen och ta {exit_number} avfarten mot {destination}"
                 },
                 "name_exit": {
-                    "default": "Kör in i {rotary_name} och ta avfart {exit_number}",
-                    "name": "Kör in i {rotary_name} och ta avfart {exit_number} mot {way_name}",
-                    "destination": "Kör in i {rotary_name} och ta avfart {exit_number} mot {destination}"
+                    "default": "Kör in i {rotary_name} och ta {exit_number} avfarten",
+                    "name": "Kör in i {rotary_name} och ta {exit_number}  avfarten in på {way_name}",
+                    "destination": "Kör in i {rotary_name} och ta {exit_number} avfarten mot {destination}"
                 }
             }
         },
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Kör in i rondellen och ta avfart {exit_number}",
-                    "name": "Kör in i rondellen och ta avfart {exit_number} mot {way_name}",
-                    "destination": "Kör in i rondellen och ta avfart {exit_number} mot {destination}"
+                    "default": "Kör in i rondellen och ta {exit_number} avfarten",
+                    "name": "Kör in i rondellen och ta {exit_number} avfarten in på {way_name}",
+                    "destination": "Kör in i rondellen och ta {exit_number} avfarten mot {destination}"
                 },
                 "default": {
                     "default": "Kör in i rondellen",
